@@ -54,7 +54,7 @@ public class ArrayAlgorithms {
 
    public static void main(String[] args) {
       ArrayAlgorithms jackArray = new ArrayAlgorithms(100);
-      jackArray.populateArrayWithRandom()
+      jackArray.populateArrayWithRandom();
       System.out.println(jackArray.findMax());
       System.out.println(jackArray.hasDuplicates());
       System.out.println(jackArray.isInArray(85));
