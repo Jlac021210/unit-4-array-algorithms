@@ -42,7 +42,6 @@ public class ArrayAlgorithms {
    }
 
    public boolean isInArray(int intToFind) {
-
       for(int value : intArray){
          if(value==intToFind){
             return true;
